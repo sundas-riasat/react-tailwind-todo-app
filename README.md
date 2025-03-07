@@ -1,12 +1,58 @@
-# React + Vite
+# 📝 React + Tailwind Todo App with JSONPlaceholder API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React + Tailwind CSS Todo App** that interacts with the **JSONPlaceholder API** to fetch and manage tasks. It demonstrates how to **fetch data, manage state, and create a responsive UI** using Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Fetches todos from JSONPlaceholder API  
+✅ Displays a list of todos with a beautiful UI  
+✅ Allows users to add and delete todos  
+✅ Uses Tailwind CSS for styling  
+✅ React hooks for state management  
 
-## Expanding the ESLint configuration
+## 🛠️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/sundas-riasat/react-tailwind-todo-app
+cd react-tailwind-todo-app
+```
+
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+
+### 3️⃣ Start the Development Server
+```sh
+npm run dev
+```
+
+The app will be available at **http://localhost:5173/**.
+
+## 🖥️ Tech Stack
+
+- **React** (Frontend framework)
+- **Tailwind CSS** (Styling)
+- **JSONPlaceholder API** (Fake REST API for testing)
+
+## 📜 API Usage
+
+The app fetches data from JSONPlaceholder's **/todos** endpoint:
+```sh
+https://jsonplaceholder.typicode.com/todos
+```
+
+## 📌 Screenshots
+
+![Todo App Screenshot](./screenshot.png)
+
+## 💡 Contributing
+
+Feel free to submit **issues** or **pull requests** to improve the project!
+
+---
+
+### 📢 **Like this project? Give it a ⭐ on GitHub!** 🚀🔥
